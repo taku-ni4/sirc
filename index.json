@@ -1,0 +1,28 @@
+var SEARCH_INDEX = {
+  "Index": [
+    {
+      "Name": "新しい ページ",
+      "FileName": "000000036298.html",
+      "PageTree": "",
+      "Text": "新しい ページ"
+    },
+    {
+      "Name": "メンバー紹介",
+      "FileName": "000000036297.html",
+      "PageTree": "",
+      "Text": "メンバー紹介"
+    },
+    {
+      "Name": "ご挨拶",
+      "FileName": "000000036296.html",
+      "PageTree": "",
+      "Text": "ご挨拶"
+    },
+    {
+      "Name": "TOP",
+      "FileName": "index.html",
+      "PageTree": "",
+      "Text": "ご挨拶 メンバー紹介 研究概要 介護 保育 介護予防 用語集 新着 2018.06.18 業務手順Aを改定しました 2018.05.20 新店舗がオープンしました 2018.04.18 業務手順Bを改定しました"
+    }
+  ]
+}
