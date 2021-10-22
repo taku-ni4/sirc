@@ -78,17 +78,20 @@ $(".jsTreeExpansion").css("cursor","pointer");
 /* --- for mobile --- */
 show_tree = 0;
 show_search = 0;
+show_scrollY = 0;
 function setWindowOverlay(){
-	window.scrollY = $(window).scrollTop();
-	$("main").css('top',-window.scrollY + offset);
+	show_scrollY = $(window).scrollTop();
+	$("main").css('top',-show_scrollY + offset);
 	$("main").addClass("op-window-overlay");
 	$("body").addClass("c-fixed");
 }
 function delWindowOverlay(){
 	$("main").removeClass("op-window-overlay");
 	$("main").removeAttr("style");
-	$(window).scrollTop(window.scrollY);
 	$("body").removeClass("c-fixed");
+	$(window).scrollTop(show_scrollY);
+	show_scrollY = 0;
+	
 }
 function delOverlayVisible(){
 	$(".op-overlay-menu-container").removeClass("op-visible");
@@ -137,10 +140,12 @@ $(".op-header-control-nav").click(function(){
 });
 // when click out of overlay contents
 $("main").click(function(){
-	if($("main").hasClass("op-window-overlay")) closeOverlay();
+	if($("main").hasClass("op-window-overlay"))
+	{
+		closeOverlay();
+	}
 });
-// when window resize
-$(window).resize(function(){
+// when window orientationchange
+$(window).on("orientationchange", function(){
 	closeOverlay();
 });
-
