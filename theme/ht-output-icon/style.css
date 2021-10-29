@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'ht-output-icon';
+  src:  url('fonts/ht-output-icon.eot?jkjsmy');
+  src:  url('fonts/ht-output-icon.eot?jkjsmy#iefix') format('embedded-opentype'),
+    url('fonts/ht-output-icon.ttf?jkjsmy') format('truetype'),
+    url('fonts/ht-output-icon.woff?jkjsmy') format('woff'),
+    url('fonts/ht-output-icon.svg?jkjsmy#ht-output-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.op-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ht-output-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.op-icon-times-line:before {
+  content: "\e90d";
+}
+.op-icon-arrow-square-top:before {
+  content: "\e908";
+}
+.op-icon-arrow-square-bottom:before {
+  content: "\e90a";
+}
+.op-icon-arrow-square-left:before {
+  content: "\e90b";
+}
+.op-icon-arrow-square-right:before {
+  content: "\e90c";
+}
+.op-icon-arrow-next:before {
+  content: "\e90e";
+}
+.op-icon-arrow-prev:before {
+  content: "\e90f";
+}
+.op-icon-arrow-top:before {
+  content: "\e904";
+}
+.op-icon-arrow-bottom:before {
+  content: "\e905";
+}
+.op-icon-arrow-left:before {
+  content: "\e906";
+}
+.op-icon-arrow-right:before {
+  content: "\e907";
+}
+.op-icon-outer-link:before {
+  content: "\e94b";
+}
+.op-icon-arrow-circle-bottom:before {
+  content: "\e900";
+}
+.op-icon-arrow-circle-top:before {
+  content: "\e92e";
+}
+.op-icon-arrow-circle-left:before {
+  content: "\e91a";
+}
+.op-icon-arrow-circle-right:before {
+  content: "\e91b";
+}
+.op-icon-bars:before {
+  content: "\e902";
+}
+.op-icon-search:before {
+  content: "\e903";
+}
+.op-icon-filetype-file:before {
+  content: "\e935";
+}
+.op-icon-filetype-movie:before {
+  content: "\e934";
+}
+.op-icon-filetype-image:before {
+  content: "\e909";
+}
+.op-icon-filetype-excel:before {
+  content: "\e936";
+}
+.op-icon-filetype-pdf:before {
+  content: "\e937";
+}
+.op-icon-filetype-powerpoint:before {
+  content: "\e938";
+}
+.op-icon-filetype-word:before {
+  content: "\e93b";
+}
+.op-icon-check-line:before {
+  content: "\e901";
+}
+.op-icon-minus-line:before {
+  content: "\e915";
+}
+.op-icon-plus-line:before {
+  content: "\e914";
+}
